@@ -25,6 +25,9 @@ patchesJson6902:
 namespace: argocd
 
 images:
+- name: argoproj/argocd
+  newName: docker.pkg.github.com/vathsalashetty25/repo-for-images/argocd
+  newTag: 1.9.0-a85b9a23
 - name: quay.io/argoproj/argocd
   newName: docker.pkg.github.com/argoproj/argo-cd/argocd
   newTag: 1.9.0-d8cb02bd
